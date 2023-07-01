@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YB Courier Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form-style.css">
+</head>
+
+<body>
+
+    <div class=" fixed-top">
+        <header class="">
+            <nav class="navbar  navbar-expand-lg  bg-yellow justify-content-between">
+                <a href="index.html" class="navbar-brand  brand-name">YB Delivery</a>
+                <form class="form-inline search-bar">
+                    <input id="checkpackage" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="searchpackage()">Search</button>
+                </form>
+            </nav>
+
+
+        </header>
+
+
+
+        <div class="container-fluid">
+            <div class=" row  bg-blue p-3">
+                <div class="col text-center">CODE:12345</div>
+                <div class="col text-center">STATION NAME: Salala</div>
+                <div class="col text-center">COUNTY: Bong County</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid form-space">
+
+        <div class="row">
+            <div class="col">
+                <div class="form-heading p-1">
+                    <h3 class="text-center">YB Delivery Liberia</h3>
+                    <h5 class="text-center">Reciept:</h5>
+
+                </div>
+                <div class="form-heading p-1">
+                    <h5 class="text-center">Sender Informations</h5>
+                </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item"><b><h5>Sending ID: &nbsp; &nbsp;  111111</h5></b></li>
+                    <li class="list-group-item"><b>Full Name: &nbsp;</b> John Milla Browan</li>
+                    <li class="list-group-item"><b>Citizen ID: &nbsp;</b>Lib12345</li>
+                    <li class="list-group-item"><b>County: &nbsp;</b>Lofa</li>
+                    <li class="list-group-item"><b>District: &nbsp;</b> 14</li>
+                    <li class="list-group-item"><b>Area Code: &nbsp;</b> 50078</li>
+                    <li class="list-group-item"><b> Mobile Number: &nbsp;</b>123456789</li>
+                    <li class="list-group-item"><b> Station: &nbsp;</b>Salala</li>
+                    <li class="list-group-item"><b>Station Code: &nbsp;</b> 89892</li>
+                </ul>
+
+                <div class="form-heading p-1">
+                    <h5 class="text-center">PACKAGE DATA</h5>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Package ID: &nbsp;</b> 987654</li>
+                    <li class="list-group-item"><b>Box Size: &nbsp;</b> 60 sqlft</li>
+                    <li class="list-group-item"><b>Height: &nbsp;</b> 20 cm</li>
+                    <li class="list-group-item"><b>Weight: &nbsp;</b>7Kg</li>
+                    <li class="list-group-item"><b>County: &nbsp;</b>Lofa</li>
+                </ul>
+
+
+            </div>
+            <div class="col">
+                <div class="warning-note">
+                    <h5 class="text">
+                        WARNING!!!
+                    </h5>
+                    <p>This is to inform sender and reciever, please keep reciept while the pakage is in transit to its destination. At destination, package will not be given to the reciever without the reciept and a vilid citezen ID card. <a href="send.html"
+                            class="btn btn-ok">OK</a>
+                    </p>
+                </div>
+
+                <div class="form-heading p-3">
+                    <h5 class="text-center">Reciever Informations</h5>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Full Name: &nbsp;</b> John Milla Browan</li>
+                    <li class="list-group-item"><b>Citizen ID: &nbsp;</b>Lib12345</li>
+                    <li class="list-group-item"><b>County: &nbsp;</b>Lofa</li>
+                    <li class="list-group-item"><b>District: &nbsp;</b> 14</li>
+                    <li class="list-group-item"><b>Area Code: &nbsp;</b> 50078</li>
+                    <li class="list-group-item"><b> Mobile Number: &nbsp;</b>123456789</li>
+                    <li class="list-group-item"><b> Station: &nbsp;</b>Salala</li>
+                    <li class="list-group-item"><b>Station Code: &nbsp;</b> 89892</li>
+                </ul>
+
+                <div class="form-heading p-3">
+                    <h5 class="text-center">TO Destination DATA</h5>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Station Name: &nbsp;</b> 987654</li>
+                    <li class="list-group-item"><b>Station Code: &nbsp;</b> 696978</li>
+                    <li class="list-group-item"><b>County: &nbsp;</b> 60 sqlft</li>
+                    <li class="list-group-item"><b>City: &nbsp;</b> Salala</li>
+
+                </ul>
+                <div class="form-heading p-2">
+                    <h5 class="text-center">Total Amount Paid:</h5>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Paid: &nbsp;</b> 9000 <span>LD</span></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="myscript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

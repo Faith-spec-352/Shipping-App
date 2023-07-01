@@ -1,0 +1,66 @@
+#yb-lg {
+    opacity: 0;
+    animation: bring-text-yb 5s ease-in-out infinite;
+}
+
+@keyframes bring-text-yb {
+    0% {
+        transform: translate(-22px);
+        opacity: 0;
+    }
+    25% {
+        transform: translate(100px);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(200px);
+        opacity: 0;
+    }
+    75% {
+        transform: translate(17);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(33);
+        opacity: 0;
+    }
+}
+
+.colorful {
+    letter-spacing: 5px;
+    color: red;
+    animation: changecolor 1s infinite;
+}
+
+@keyframes changecolor {
+    0% {
+        color: blue;
+    }
+    20% {
+        color: rgb(78, 78, 211);
+    }
+    30% {
+        color: rgb(38, 38, 177);
+    }
+    40% {
+        color: rgb(236, 86, 104);
+    }
+    50% {
+        color: rgb(227, 30, 30);
+    }
+    60% {
+        color: rgb(126, 9, 17);
+    }
+    70% {
+        color: rgb(183, 3, 3);
+    }
+    80% {
+        color: rgb(246, 251, 118);
+    }
+    90% {
+        color: rgb(242, 221, 34);
+    }
+    100% {
+        color: rgb(243, 188, 9);
+    }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YB Courier Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form-style.css">
+</head>
+
+<body>
+
+    <div class=" fixed-top">
+        <header class="">
+            <nav class="navbar  navbar-expand-lg  bg-yellow justify-content-between">
+                <a href="index.html" class="navbar-brand  brand-name">YB Delivery</a>
+                <form class="form-inline search-bar">
+                    <input id="checkpackage" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn  my-2 my-sm-0" type="button" onclick="searchpackage()">Search</button>
+                </form>
+            </nav>
+
+
+        </header>
+
+
+
+        <div class="container-fluid">
+            <div class=" row  bg-blue p-3">
+                <div class="col text-center">CODE:12345</div>
+                <div class="col text-center">STATION NAME: Salala</div>
+                <div class="col text-center">COUNTY: Bong County</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container form-space ">
+        <form>
+            <div class="row">
+                <div class="col border-blue">
+                    <h5 class="text-center p-3">SENDER</h5>
+                    <div class="form-group">
+
+                        <input type="email" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="First Name">
+
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="middlename" placeholder="Middle Name">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="number" class="form-control" id="citizenID" placeholder="Citizen ID">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="county" placeholder="County">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="district" placeholder="District">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="address" placeholder="House Address">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="houseNumber" placeholder="House Number">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="landMark" placeholder="Land Mark">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="number" class="form-control" id="mobileNumber" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Sending Station Name">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="number" class="form-control" id="code" placeholder="Station Code">
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="border-yellow p-3">
+
+                        <h5 class="text-center">Package Details</h5>
+                        <div class="form-group">
+
+                            <input type="name" class="form-control" id="packagename" aria-describedby="emailHelp" placeholder="Package Name">
+
+                        </div>
+                        <div class="form-group">
+
+                            <input type="number" class="form-control" id="boxsize" placeholder="Box Size/Sqft">
+                        </div>
+
+                        <div class="form-group">
+
+                            <input type="number" class="form-control" id="height" placeholder="height">
+                        </div>
+                        <div class="form-group">
+
+                            <input type="number" class="form-control" id="weight" placeholder="Weight">
+                        </div>
+                        <div class="form-group">
+
+                            <input type="number" class="form-control" id="package-station" placeholder="Station leaving from">
+                        </div>
+                    </div>
+
+
+
+                    <div class="border-blue p-3 mt-4">
+                        <h5 class="text-center">To Station Information</h5>
+                        <div class="form-group">
+
+                            <input type="email" class="form-control" id="station_name" aria-describedby="emailHelp" placeholder="Station Name">
+
+                        </div>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" id="station_code" placeholder="Station Code">
+                        </div>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" id="station_county" placeholder="County">
+                        </div>
+                        <div class="row p-2">
+                            <a href="success-msg.html" type="submit" class="btn  btn-blue p-2">Package</a>
+                            <a href="success-msg.html" type="submit" class="btn btn-yellow ">Reset</a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </form>
+
+
+    </div>
+
+    <script src="myscript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

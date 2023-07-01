@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+/* UTILITY CLASSES */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-yellow {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.bg-white {
+    background-color: var(--third-color);
+    color: var(--primary-color);
+}
+
+.bg-blue {
+    background-color: var(--primary-color);
+    color: var(--third-color);
+}
+
+.four-size-img img {
+    width: 300px;
+    height: 200px;
+}
+
+.heading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.thumbnail-img-size-x img {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 20px;
+    box-shadow: 8px 20px 10px gray;
+}
+
+.testi img {
+    width: 250px;
+    height: 200px;
+}
+
+.testi {
+    width: 250px;
+    margin-right: 20px;
+    border: 1px solid var(--secondary-color);
+    box-shadow: 8px 20px 10px gray;
+    padding: 8px;
+}
+
+.thumbnail-img-size-y img {
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+    box-shadow: 8px 20px 10px gray;
+}
+
+.thumbnail-img-size-round img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    box-shadow: 20px 10px 30px rgb(114, 114, 240);
+}
+
+.adv-left-col {
+    margin-left: 135px;
+}
+
+.center-circle {
+    margin-left: 180px;
+}
+
+.double-col img {
+    height: 425px;
+    width: 800px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 10px solid red;
+}
+
+.box-box {
+    background-color: var(--primary-color);
+    /* height: 50vh; */
+    /* width: 50px; */
+}
+
+.myclass-border-radius {
+    border-radius: 20px;
+}
+
+.border-blue {
+    border: 1px solid var(--primary-color);
+}
+
+.border-yellow {
+    border: 1px solid var(--secondary-color);
+}
+
+
+/* UTILITY CLASSES END */
+
+.form-space {
+    margin-top: 150px;
+}
